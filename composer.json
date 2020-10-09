@@ -1,0 +1,29 @@
+{
+    "name": "nidhalkratos/laravel-coconut",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nidhal Abidi",
+            "email": "nidhalkratos@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "3.4.*",
+        "phpunit/phpunit": "~5.0",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nidhalkratos\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
